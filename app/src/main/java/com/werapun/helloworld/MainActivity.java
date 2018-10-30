@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         tvHello = findViewById(com.werapun.helloworld.R.id.tvHello);
         ivLogo = findViewById(com.werapun.helloworld.R.id.ivLogo);
-        ivLogo.setVisibility( View.INVISIBLE );
+        ivLogo.setVisibility(View.INVISIBLE);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -44,9 +44,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -63,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == com.werapun.helloworld.R.id.action_settings) {
-            ivLogo.setVisibility( View.VISIBLE );
-            System.out.println( ivLogo.isEnabled() );
+            ivLogo.setVisibility(View.VISIBLE);
+            System.out.println(ivLogo.isEnabled());
             return true;
         }
 
