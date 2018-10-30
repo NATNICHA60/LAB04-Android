@@ -17,4 +17,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="ContentImageStyle">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:src">@drawable/pic1</item>
+    </style>
 </resources>
